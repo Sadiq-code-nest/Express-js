@@ -51,6 +51,5 @@ response.append("name", "Arif")
 
 
 // app.get('/', (request, response) => response.send('Its a GET request'));
-// Newly open
 app.use((request, response) => response.send('404 not found'));
 module.exports = app;
