@@ -20,9 +20,6 @@ app.post('/area', (req, res) => {
     res.send(`<h2> The Area of Triangle is ${Area} </h2>`);
 });
 
-
-
-
 app.get('/', (req, res) => res.sendFile(__dirname + '/Home.html'));
 app.get('/circle', (req, res) => res.sendFile(__dirname + '/Circle.html'));
 // app.get('/circle', (req, res) => res.sendFile(__dirname + '/Triangle.html'));
