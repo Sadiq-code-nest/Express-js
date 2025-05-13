@@ -39,15 +39,11 @@ app.get('/', (req, res) => {
     res.send(`id is ${id} & age is ${age}`);
 } )
 
-
-
 // Using bodyParser for JSON  
 app.post('/user', (req,res)=> {
 const user=req.body.user;
 const age=req.body.age;
 res.send(`userName is ${user} & your age is ${age}`);
 })
-
-
 
 app.listen(port, () => console.log(`this is running at ${port} `));
